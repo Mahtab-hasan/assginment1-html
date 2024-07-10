@@ -36,18 +36,18 @@ main {
   line-height: 26px;
   text-align: center;
   opacity: 0.7;
+  margin-bottom: 60px;
 }
 .btn-parimay {
   border-radius: 8px;
   background: rgb(13, 19, 33);
   padding: 21px 24px 21px 24px;
-  margin: 32px 0px;
   color: #fff;
   font-family: Azeret Mono;
   font-size: 20px;
   font-weight: 600;
-  line-height: 23px;
   text-align: center;
+  text-decoration: none;
 }
 .development-parent {
   margin: 88px 150px;
@@ -158,7 +158,9 @@ main {
   text-decoration: none;
 }
 
-.textpart3 {margin: 100px 0;}
+.textpart3 {
+  margin: 100px 0;
+}
 .textpart3 h1 {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
@@ -191,19 +193,16 @@ main {
   border-radius: 16px;
 }
 
-
-.currtarget{
-  
-margin: 132px 0;
+.currtarget {
+  margin: 132px 0;
 }
 
-.card-box{
+.card-box {
+  display: flex;
 
-display: flex;
+  justify-content: space-around;
 
-justify-content: space-around;
-
-margin: 0 130px;
+  margin: 0 130px;
 }
 .card {
   border-radius: 16px;
@@ -213,8 +212,7 @@ margin: 0 130px;
 .card-parents {
   width: 365px;
 }
-.card-texts {
-}
+
 .card-texts img {
   width: 60px;
   padding: 10px 0;
@@ -239,8 +237,8 @@ margin: 0 130px;
   font-size: 21px;
   font-weight: 700;
 }
-
-.supportparent{
+.supportparent {
+  position: relative;
   text-align: center;
   background-image: url(../assets/handshake.jpg);
   background-position: center;
@@ -248,50 +246,25 @@ margin: 0 130px;
   margin: auto;
   border-radius: 16px;
   width: 1140px;
-  height: 262px;
+  height: 240px;
   padding: 64px 48px 64px 48px;
+  overflow: hidden;
+}
+.supportparent::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+  z-index: 1;
 }
 
-.supporttext{margin-bottom: 58px;}
-.supporttext h1{
 
-margin: 24px 0px;
 
-color: rgb(255, 255, 255);
-
-font-family: Azeret Mono;
-
-font-size: 32px;
-
-font-weight: 700;
-
-line-height: 36px;
-
-text-align: center;
-}
-.supporttext p{
-
-color: rgb(255, 255, 255);
-
-font-family: Azeret Mono;
-
-font-size: 16px;
-
-font-weight: 400;
-
-line-height: 26px;
-
-opacity: 0.7;
-
-text-align: center;
-}
-.inputfiled{
-
-display: flex;
-
-justify-content: center;
-}
-.inputfiled input{
+.inputfiled input {
   height: 38px;
   border-radius: 5px;
   background-color: #ffff;
@@ -299,15 +272,107 @@ justify-content: center;
   display: block;
   width: 52%;
   padding: 10px 20px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   border: none;
   font-size: 16px;
-  margin: 0 27px;
 }
-.inputfiled button{
+.inputfiled {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.supporttext p {
+  color: rgb(255, 255, 255);
 
+  font-family: Azeret Mono;
+
+  font-size: 16px;
+
+  font-weight: 400;
+
+  line-height: 26px;
+
+  opacity: 0.7;
+
+  text-align: center;
+}
+.supporttext h1 {
+  margin: 24px 0px;
+
+  color: rgb(255, 255, 255);
+
+  font-family: Azeret Mono;
+
+  font-size: 32px;
+
+  font-weight: 700;
+
+  line-height: 36px;
+
+  text-align: center;
+}
+
+.supportparent * {
+  position: relative;
+  z-index: 2;
+}
+.supporttext {
+  margin-bottom: 50px;
+}
+.inputfiled button {
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 17px 20px 17px 20px;
+  margin: 0px 16px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  border: none;
+}
+
+/* footerpart */
+
+.footertext{
+  
+padding: 32px 150px 32px 150px;
+  
+border-radius: 16px;
+  
+background: rgba(13, 19, 33, 0.03);
+  
+margin: 50px 0px 0;
+  
+display: flex;
+  
+justify-content: space-between;
+  
+
+  
+align-items: center;
+}
+.footertext p{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
 }
 
 
-
-
+.footericon i{padding: 0px 14px;}
+.facebook{
+  font-size: 30px;
+  color: rgb(7, 7, 177);
+}
+.github{
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.966)
+}
+.linkedin{
+  font-size: 30px;
+  color: rgb(7, 115, 177);
+}
