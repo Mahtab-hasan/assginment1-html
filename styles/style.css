@@ -262,8 +262,6 @@ main {
   z-index: 1;
 }
 
-
-
 .inputfiled input {
   height: 38px;
   border-radius: 5px;
@@ -335,44 +333,35 @@ main {
 
 /* footerpart */
 
-.footertext{
-  
-padding: 32px 150px 32px 150px;
-  
-border-radius: 16px;
-  
-background: rgba(13, 19, 33, 0.03);
-  
-margin: 50px 0px 0;
-  
-display: flex;
-  
-justify-content: space-between;
-  
-
-  
-align-items: center;
+.footertext {
+  padding: 14px 120px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  margin: 90px 0px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.footertext p{
+.footertext p {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   line-height: 23px;
   text-align: center;
 }
-
-
-.footericon i{padding: 0px 14px;}
-.facebook{
-  font-size: 30px;
-  color: rgb(7, 7, 177);
+.footericon{
+  font-size: 35px;
 }
-.github{
-  font-size: 30px;
-  color: rgba(0, 0, 0, 0.966)
+.footericon i {
+  padding: 0px 14px;
 }
-.linkedin{
-  font-size: 30px;
+.facebook {
+  color: rgb(7 89 177);
+}
+.github {
+  color: rgba(0, 0, 0, 0.966);
+}
+.linkedin {
   color: rgb(7, 115, 177);
 }
