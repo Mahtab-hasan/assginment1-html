@@ -15,11 +15,10 @@ main {
   background-size: cover;
   height: 70vh;
 }
-.banner img {
-}
+
 .banner-child {
   text-align: center;
-  padding: 26px 220px 0;
+  padding: 26px 220px;
 }
 .banner h1 {
   color: rgb(13, 19, 33);
@@ -27,7 +26,6 @@ main {
   font-size: 48px;
   font-weight: 800;
   line-height: 68px;
-  letter-spacing: 0%;
   text-align: center;
 }
 .banner p {
@@ -36,7 +34,6 @@ main {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0%;
   text-align: center;
   opacity: 0.7;
 }
@@ -52,3 +49,265 @@ main {
   line-height: 23px;
   text-align: center;
 }
+.development-parent {
+  margin: 88px 150px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 80px 97px 80px 97px;
+}
+.development-text {
+  text-align: center;
+}
+.dev-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.dev-description {
+  margin-bottom: 29px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.box-parent {
+  display: flex;
+  border-radius: 16px;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin: 32px 0px;
+  padding: 48px;
+  justify-content: space-between;
+}
+.box-parent-2 {
+  display: flex;
+  border-radius: 16px;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin: 32px 0px;
+  padding: 48px;
+  /* justify-content: space-between; */
+}
+.textpart-2 {
+  width: 55%;
+  margin: 0 50px;
+}
+.textpart-2 h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+.textpart-2 p {
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  margin: 35px 0;
+}
+.textpart {
+  width: 477px;
+}
+.textpart h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+.textpart p {
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  margin: 35px 0;
+}
+
+.anchortag {
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 12px 25px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+
+.textpart3 {margin: 100px 0;}
+.textpart3 h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+.textpart3 p {
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 48px 0;
+  text-align: center;
+}
+
+.video-section {
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  margin: 48px 150px;
+  padding: 20px;
+  text-align: center;
+}
+.video-section iframe {
+  width: 100%;
+  height: 602px;
+  border-radius: 16px;
+}
+
+
+.currtarget{
+  
+margin: 132px 0;
+}
+
+.card-box{
+
+display: flex;
+
+justify-content: space-around;
+
+margin: 0 130px;
+}
+.card {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+.card-parents {
+  width: 365px;
+}
+.card-texts {
+}
+.card-texts img {
+  width: 60px;
+  padding: 10px 0;
+}
+.card-texts h2 {
+  font-size: 29px;
+
+  margin: 15px 0;
+}
+.card-texts p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  opacity: 0.7;
+  margin: 19px 0;
+}
+.card-texts a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.supportparent{
+  text-align: center;
+  background-image: url(../assets/handshake.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+  border-radius: 16px;
+  width: 1140px;
+  height: 262px;
+  padding: 64px 48px 64px 48px;
+}
+
+.supporttext{margin-bottom: 58px;}
+.supporttext h1{
+
+margin: 24px 0px;
+
+color: rgb(255, 255, 255);
+
+font-family: Azeret Mono;
+
+font-size: 32px;
+
+font-weight: 700;
+
+line-height: 36px;
+
+text-align: center;
+}
+.supporttext p{
+
+color: rgb(255, 255, 255);
+
+font-family: Azeret Mono;
+
+font-size: 16px;
+
+font-weight: 400;
+
+line-height: 26px;
+
+opacity: 0.7;
+
+text-align: center;
+}
+.inputfiled{
+
+display: flex;
+
+justify-content: center;
+}
+.inputfiled input{
+  height: 38px;
+  border-radius: 5px;
+  background-color: #ffff;
+  color: #757575;
+  display: block;
+  width: 52%;
+  padding: 10px 20px;
+  font-family: 'Open Sans';
+  border: none;
+  font-size: 16px;
+  margin: 0 27px;
+}
+.inputfiled button{
+
+}
+
+
+
+
